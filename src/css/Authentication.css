@@ -1,0 +1,34 @@
+button {
+  background: #aa3fec;
+  border-radius: 30px;
+  width: 20vw;
+  height: 5vh;
+  color: white;
+  margin: 10vh;
+  margin-top: 0;
+  
+}
+
+.box{
+    width: 100%;
+    align-items: center;
+
+}
+
+.box > h1{
+    padding: 30px;
+}
+
+.credentials{
+    margin-left: 40vw ;
+    display: flex;   
+    padding: 10px;
+}
+
+p{
+    color: grey;
+    padding: 3rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
