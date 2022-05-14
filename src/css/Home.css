@@ -1,0 +1,9 @@
+.creators img{
+    width: 15em;
+    height: 15em;
+}
+.creators{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5rem;
+}
