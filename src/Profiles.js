@@ -3,7 +3,7 @@ import React from "react";
 import id1 from "./img/profiles/id1.jpg";
 import id2 from "./img/profiles/id2.jpg";
 import id3 from "./img/profiles/id3.jpg";
-import id4 from "./img/profiles/id4.jpg";
+import id4 from "./img/profiles/id4.png";
 import id5 from "./img/profiles/id5.jpg";
 import id6 from "./img/profiles/id6.jpg";
 import id7 from "./img/profiles/id7.jpg";
