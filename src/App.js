@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 import Upperbar from './Upperbar';
+import Landingpage from './Landingpage';
 // import Like from './Like';
 // import Chat from './Chat';
 // import Profile from './Profile';
@@ -17,8 +18,9 @@ function App() {
     <div className="App">
       {/* <Authentication/> */}
       {/* <Login/> */}
-      <Upperbar/>
-      <Home/>
+      {/* <Upperbar/> */}
+      {/* <Home/> */}
+      <Landingpage/>
     </div>
     {/* <Router>
     <Switch>
@@ -29,7 +31,7 @@ function App() {
       </Switch>
     </Router> */}
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
       </div>
     </>
   );

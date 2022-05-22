@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.maincontainerlanding {
+  background-image: url(../img/welcombg.png);
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: none;
+  margin-left: 330px;
+  padding-top: 30px;
+  color: white;
+}
+.mainbarlogo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.mainimg{
+    margin-bottom: 50px;
+}
+
+.part1 {
+  display: flex;
+  margin: 100px;
+}
+.part2 {
+  display: block;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.part2 h1 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.part2 p {
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.clickables {
+  width: 45vw;
+  justify-content: space-around;
+}
+.explorebutton,
+.createbutton {
+  margin: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  width: 250px;
+  height: 64px;
+}
+.explorebutton {
+  background: radial-gradient(
+    162.5% 162.5% at 50% -24.22%,
+    #7331e8 0%,
+    #b44cf1 100%
+  );
+  border-radius: 2px;
+  border: 1px solid #8338eb;
+  color: white;
+}
+.createbutton {
+  background: rgba(149, 63, 237, 0.18);
+  border: 1px solid #8338eb;
+  border-radius: 2px;
+  color: white;
+}
+
+.facts {
+  display: flex;
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.numbers{
+    margin: 20px;
+}
