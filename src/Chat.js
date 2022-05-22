@@ -1,9 +1,10 @@
 import React from 'react'
+import Chatsection from './img/Chatsection.jpeg'
 
 const Chat = () => {
   return (
     <div>
-        <p>chat</p>
+      <img src={Chatsection} alt="" />
     </div>
   )
 }

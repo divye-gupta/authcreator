@@ -7,6 +7,7 @@
 
 .conditions{
     color: white;
+    margin-left: 20vw;
 }
 .buttons{
     display: flex;
@@ -31,6 +32,7 @@
     padding: 20px;
     width: 25vw;
     height: auto;
+    margin-left: 37vw;
 }
 
 

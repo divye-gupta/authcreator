@@ -1,6 +1,6 @@
-// import logo from './logo.svg';
+import React, { useState } from "react";
 import "./App.css";
-// import Login from './Login';
+import Login from './Login';
 // import Authentication from './Authentication';
 import Navbar from "./Navbar";
 import Home from "./Home";
@@ -13,7 +13,22 @@ import Profile from './Profile';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
+//states
+const [Loggedin, setLoggedin] = useState("false");
+const xyz=()=>{
+  setLoggedin("true")
+}
 
+if(Loggedin === "false"){
+  return(
+    <>
+    <Login/>
+    <button onClick={xyz} className="submitbtn" >Submit</button>
+    </>
+
+  )
+}
+else{
 
 
   return (
@@ -34,6 +49,7 @@ function App() {
       </div>
     </Router>
   );
+}
 }
 
 export default App;

@@ -1,9 +1,10 @@
 import React from 'react'
+import Profilepage from './img/Profilepage.jpeg'
 
 const Profile = () => {
   return (
     <div>
-        <p>Profile</p>
+      <img src={Profilepage} alt="" />
     </div>
   )
 }

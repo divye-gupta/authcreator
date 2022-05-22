@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.submitbtn{
+  padding: 10px;
+  position: relative;
+  left:50vw;
+  background-color: green;
+}
