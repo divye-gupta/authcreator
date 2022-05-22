@@ -2,7 +2,7 @@ import React from "react";
 import barlogo from "./img/barlogo.png";
 import "./css/Upperbar.css";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
-import { Filter } from "@mui/icons-material";
+// import { Filter } from "@mui/icons-material";
 
 const Upperbar = () => {
   return (

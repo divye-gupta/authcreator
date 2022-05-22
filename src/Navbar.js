@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
